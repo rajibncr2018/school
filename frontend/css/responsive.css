@@ -1,0 +1,137 @@
+/* Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap*/
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width:991px) {
+    .logo {
+        height: 80px;
+        padding: 5px 0px;
+        margin-top: 23px;
+    }
+    .main-nav {
+        margin: 37px 17px;
+    }
+    .head-social-icon {
+
+height: 25px;
+
+flex: none;
+
+font-size: 11px;
+
+max-width: 70%;
+
+margin: -24px auto 0 auto !important;
+
+}
+    .head-social-icon .row .col-sm-4 {
+        /* max-width:50%; */
+        /* flex:none; */
+    }
+    .menu-section {
+        height: 149px;
+        background-size: cover;
+   }
+   .menu-background {
+       padding-top: 30px;
+   }
+   .navbar-collapse {
+       position:absolute;
+       top: 51px;
+       right: 73px;
+       background-color:#fff;
+       z-index:999;
+       width:250px;
+       padding: 10px 20px;
+       border: 1px solid #094a60;
+   }
+   .our-services {
+    background-image: url(../image/our-service-back.jpg);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    height: 304px;
+   }
+   .our-services-content {
+    padding: 28px 0px;
+}
+.servicess-item-head {
+    font-size: 9.9pt;
+}
+.skils-icons img {
+    width: 17%;
+}
+.our-skills {
+    min-height:300px;
+    height: auto;
+}
+.our-portfolio3 {
+     min-height:300px;
+    height: auto;
+}
+.round-control-head {
+    font-size: 14pt;
+}
+.round-control-body {
+    font-size: 7.7pt;
+}
+.video-frame iframe {
+    width:auto;
+    height:240px;
+}
+.video-frame {
+    /* width: 100%; */
+    height: 246px;
+    float: none;
+    margin: 8px auto;
+    display: block;
+}
+.overlay-portfolio {
+    font-size: 8.4pt;
+    padding: 10px 12px;
+    height: 36px;
+}
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+    .our-services {
+        height: 304px;
+       }
+    .our-services-content {
+    padding: 73px 0px;
+}
+ }
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+    .our-services {
+        min-height: 476px;
+       }
+     .our-services-content {
+            padding: 73px 0px;
+        }
+       .main-nav {
+       margin: 71px 0;
+       }
+       .logo {
+           margin-top: 40px;
+       }      
+}
+@media (min-width: 1920px) {
+    .servicess-text-body {
+        /* color: #fff; */
+        /* font-size: 0.89rem; */
+        /* height: 82%; */
+    }
+    .servicess-text-body2 {
+        /* font-size: 0.89rem; */
+    }
+     .navbar-light .navbar-nav .nav-link {
+           font-size:16pt;
+       }
+}

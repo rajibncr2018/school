@@ -1,0 +1,2 @@
+[24-Jun-2018 16:47:00 Asia/Kolkata] PHP Notice:  Undefined variable: sqlTbl in /home/httpbrewbakeskol/public_html/testing/backend/admin/ajax/delete.php on line 49
+[24-Jun-2018 16:47:00 Asia/Kolkata] PHP Notice:  Undefined variable: datatype in /home/httpbrewbakeskol/public_html/testing/backend/admin/ajax/delete.php on line 49
